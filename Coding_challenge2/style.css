@@ -18,6 +18,7 @@ body {
   border: 4px solid black;
   width: 825px;
   margin: 50px auto;
+  position: relative;
 }
 
 .product-title {
@@ -44,6 +45,21 @@ body {
   margin-bottom: 20px;
 }
 
+.sale {
+  background-color: red;
+  color: white;
+  padding: 7px 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: inline-block;
+  /* width: 40px;
+  text-align: center; */
+  position: absolute;
+  top: -17px;
+  left: -38px;
+}
+
 p {
   margin-bottom: 10px;
 }
@@ -51,11 +67,41 @@ p {
 .more-info:link,
 .more-info:visited {
   color: black;
+  margin-bottom: 30px;
+  display: inline-block;
 }
 
 .more-info:hover,
-.more-info:hover {
+.more-info:active {
   text-decoration: none;
+}
+
+.color {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-yellow {
+  background-color: yellow;
+}
+
+.color-green {
+  background-color: green;
+}
+
+.color-brown {
+  background-color: brown;
 }
 
 /* Product Details */
@@ -64,6 +110,7 @@ p {
   text-transform: uppercase;
   font-size: 16px;
   margin-bottom: 15px;
+  margin-top: 30px;
 }
 
 .details-list {
@@ -94,54 +141,3 @@ p {
   color: #000;
   background-color: #fff;
 }
-
-/* My solution */
-
-/* body {
-  border: 4px solid black;
-  font-family: sans-serif;
-}
-
-h2 {
-  text-align: center;
-  background-color: #eee;
-}
-
-strong {
-  font-size: 22px;
-}
-
-.free {
-  font-size: 13px;
-  text-transform: uppercase;
-  color: #555;
-}
-
-h3 {
-  text-transform: uppercase;
-}
-
-a {
-  color: black;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-li {
-  list-style: square;
-}
-
-button {
-  font-size: 18px;
-  text-transform: uppercase;
-  color: white;
-  background-color: black;
-  border: none;
-}
-
-button:hover {
-  color: black;
-  background-color: white;
-} */ ;
